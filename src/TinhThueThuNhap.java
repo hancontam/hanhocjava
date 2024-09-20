@@ -7,9 +7,9 @@ public class TinhThueThuNhap {
         int a = sc.nextInt();
         if (a < 10) {
             System.out.println("Khong dong thue");
-        } else if (10 <= a && a < 15) {
+        } else if (10 <= a && a <= 15) {
             System.out.println("Thue la 10%");
-        } else if (15 <= a && a < 30) {
+        } else if (15 < a && a <= 30) {
             System.out.println("Thue la 20%");
         } else {
             System.out.println("Thue la 50%");
