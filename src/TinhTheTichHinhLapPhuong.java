@@ -7,5 +7,6 @@ public class TinhTheTichHinhLapPhuong {
         int a = sc.nextInt();
         System.out.println("------ket qua------");
         System.out.println("The tich canh lap phuong la: " + Math.pow(a, 3));
+        sc.close();
     }
 }

@@ -10,6 +10,7 @@ public class SoSanhHaiSo {
         System.out.println("nhap so thu 2");
         int b = scanner.nextInt();
         System.out.println("Min la " + Math.min(a, b));
+        scanner.close();
 
     }
 }
