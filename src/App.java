@@ -3,12 +3,13 @@ import java.util.Scanner;
 public class App {
 
     public static void main(String[] args) {
+
         Scanner scanner = new Scanner(System.in);
-        System.out.println("My name is");
-        String name = scanner.nextLine();
-        System.out.println("Your age is");
-        int age = scanner.nextInt();
-        System.out.println("My name is: " + name + " and my age is: " + age);
-        scanner.close();
+        System.out.println("nhap so thu 1");
+        int a = scanner.nextInt();
+        System.out.println("nhap so thu 2");
+        int b = scanner.nextInt();
+        System.out.println("Min la " + Math.min(a, b));
+
     }
 }
