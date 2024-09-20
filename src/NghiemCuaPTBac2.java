@@ -41,6 +41,6 @@ public class NghiemCuaPTBac2 {
             }
 
         }
-
+        scanner.close();
     }
 }
