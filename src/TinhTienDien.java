@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 public class TinhTienDien {
     public static void main(String[] args) {
-        System.out.println("Nhap so dien:");
+        System.out.print("Nhap so dien:");
         Scanner scanner = new Scanner(System.in);
         int phidien = scanner.nextInt();
         int giatien;
